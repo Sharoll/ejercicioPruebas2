@@ -41,4 +41,16 @@ class testFibonacci {
 		int valor = fibonacci.serieFibonacci(5);
         assertEquals(5, valor);
 	}
+	
+	@Test
+	void test6() {
+		int valor = fibonacci.serieFibonacci(6);
+        assertEquals(8, valor);
+	}
+	
+	@Test
+	void test7() {
+		int valor = fibonacci.serieFibonacci(150);
+        assertEquals(626779336, valor);
+	}
 }
