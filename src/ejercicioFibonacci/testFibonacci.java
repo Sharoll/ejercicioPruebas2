@@ -8,7 +8,8 @@ class testFibonacci {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		int valor = fibonacci.serieFibonacci(0);
+        assertEquals(0, valor);
 	}
 
 }
